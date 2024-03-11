@@ -1,10 +1,10 @@
-2024-03-11 20:22:00,189 Using selector: EpollSelector
-2024-03-11 20:24:02,952 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-11 20:24:02,952 Using selector: EpollSelector
-2024-03-11 20:26:03,692 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-11 20:26:03,692 Using selector: EpollSelector
-2024-03-11 20:28:04,416 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-11 20:28:04,417 Using selector: EpollSelector
-2024-03-11 20:28:34,844 Error: net::ERR_TIMED_OUT at https://www.tiktok.com/@texasbeeworks
-2024-03-11 20:28:34,845 Using selector: EpollSelector
-2024-03-11 20:30:35,600 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-11 21:20:33,394 Using selector: EpollSelector
+2024-03-11 21:22:34,649 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-11 21:22:34,650 Using selector: EpollSelector
+2024-03-11 21:24:35,661 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-11 21:24:35,661 Using selector: EpollSelector
+2024-03-11 21:26:36,738 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-11 21:26:36,738 Using selector: EpollSelector
+2024-03-11 21:28:37,918 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-11 21:28:37,918 Using selector: EpollSelector
+2024-03-11 21:30:39,010 Error: Data scraping unable to complete in 60.0s (retries: 3)
