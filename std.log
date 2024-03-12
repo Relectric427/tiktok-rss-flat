@@ -1,10 +1,10 @@
-2024-03-12 15:20:00,985 Using selector: EpollSelector
-2024-03-12 15:22:01,700 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-12 15:22:01,700 Using selector: EpollSelector
-2024-03-12 15:22:32,111 Error: net::ERR_TIMED_OUT at https://www.tiktok.com/@planetclue
-2024-03-12 15:22:32,112 Using selector: EpollSelector
-2024-03-12 15:24:33,304 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-12 15:24:33,304 Using selector: EpollSelector
-2024-03-12 15:26:33,966 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-12 15:26:33,966 Using selector: EpollSelector
-2024-03-12 15:28:34,625 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-12 16:26:03,005 Using selector: EpollSelector
+2024-03-12 16:28:04,566 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-12 16:28:04,566 Using selector: EpollSelector
+2024-03-12 16:30:05,811 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-12 16:30:05,811 Using selector: EpollSelector
+2024-03-12 16:32:07,359 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-12 16:32:07,359 Using selector: EpollSelector
+2024-03-12 16:34:09,302 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-12 16:34:09,303 Using selector: EpollSelector
+2024-03-12 16:36:10,158 Error: Data scraping unable to complete in 60.0s (retries: 3)
