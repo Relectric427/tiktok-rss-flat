@@ -1,10 +1,13 @@
-2024-04-23 13:22:02,680 Using selector: EpollSelector
-2024-04-23 13:24:03,999 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-04-23 13:24:03,999 Using selector: EpollSelector
-2024-04-23 13:26:05,241 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-04-23 13:26:05,242 Using selector: EpollSelector
-2024-04-23 13:28:06,816 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-04-23 13:28:06,816 Using selector: EpollSelector
-2024-04-23 13:30:07,495 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-04-23 13:30:07,496 Using selector: EpollSelector
-2024-04-23 13:32:08,767 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-04-23 14:21:45,078 Using selector: EpollSelector
+2024-04-23 14:23:46,151 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-04-23 14:23:46,152 Using selector: EpollSelector
+2024-04-23 14:24:20,389 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@planetclue
+Call log:
+navigating to "https://www.tiktok.com/@planetclue", waiting until "load"
+
+2024-04-23 14:24:20,390 Using selector: EpollSelector
+2024-04-23 14:26:22,236 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-04-23 14:26:22,236 Using selector: EpollSelector
+2024-04-23 14:28:23,280 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-04-23 14:28:23,280 Using selector: EpollSelector
+2024-04-23 14:30:24,812 Error: Data scraping unable to complete in 60.0s (retries: 3)
