@@ -1,72 +1,10 @@
-2024-09-19 01:48:16,868 Using selector: EpollSelector
-2024-09-19 01:50:19,249 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-19 01:50:19,249 Using selector: EpollSelector
-2024-09-19 01:52:21,836 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-19 01:52:21,836 Using selector: EpollSelector
-2024-09-19 01:54:24,515 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-19 01:54:24,515 Using selector: EpollSelector
-2024-09-19 01:54:25,136 Error: BrowserType.launch: Target page, context or browser has been closed
-Browser logs:
-
-<launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-MBOnUt --remote-debugging-pipe --no-startup-window
-<launched> pid=3261
-[pid=3261][err] Old Headless mode will be removed from the Chrome binary soon. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
-[pid=3261][err] 
-[pid=3261][err] [0919/015424.791999:WARNING:audio_manager_linux.cc(54)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-[pid=3261][err] Received signal 11 SI_KERNEL000000000000
-[pid=3261][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
-[pid=3261][err] #0 0x564c9dc9ccd2 base::debug::CollectStackTrace()
-[pid=3261][err] #1 0x564c9dc89eae [0919/015424.811022:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-[pid=3261][err] base::debug::StackTrace::StackTrace()
-[pid=3261][err] #2 0x564c9dc9c6e1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
-[pid=3261][err] #3 0x7f833ba42520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
-[pid=3261][err] #4 0x7f833ba44c1d getenv
-[pid=3261][err] #5 0x564c9de1e189 epoll_init
-[pid=3261][err] #6 0x564c9de1b631 event_base_new
-[pid=3261][err] #7 0x564c9dca8d4d base::MessagePumpLibevent::MessagePumpLibevent()
-[pid=3261][err] #8 0x564c9dbe6e1b base::MessagePump::Create()
-[pid=3261][err] #9 0x564c9dc6c703 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
-[pid=3261][err] #10 0x564c9dc6c368 base::Thread::ThreadMain()
-[pid=3261][err] #11 0x564c9dc8041a base::(anonymous namespace)::ThreadFunc()
-[pid=3261][err] #12 0x7f833ba94ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
-[pid=3261][err] #13 0x7f833bb26850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
-[pid=3261][err]   r8: 00002b2800224a00  r9: 0000000000000000 r10: 00007ffed538a080 r11: 0000000000000246
-[pid=3261][err]  r12: 005c0200282b0000 r13: 000000000000000d r14: 000000000000000b r15: 0000564c961f3413
-[pid=3261][err]   di: 0000564c961f3411  si: 00007f8321dfded0  bp: 0000000000005645  bx: 00002b2800024800
-[pid=3261][err]   dx: 0000564c961f3411  ax: 000000000000000d  cx: 00007f833baec09b  sp: 00007f8321dfde60
-[pid=3261][err]   ip: 00007f833ba44c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
-[pid=3261][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
-[pid=3261][err] [end of stack trace]
-Call log:
-<launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-MBOnUt --remote-debugging-pipe --no-startup-window
-  - <launched> pid=3261
-  - [pid=3261][err] Old Headless mode will be removed from the Chrome binary soon. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
-  - [pid=3261][err] 
-  - [pid=3261][err] [0919/015424.791999:WARNING:audio_manager_linux.cc(54)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-  - [pid=3261][err] Received signal 11 SI_KERNEL000000000000
-  - [pid=3261][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
-  - [pid=3261][err] #0 0x564c9dc9ccd2 base::debug::CollectStackTrace()
-  - [pid=3261][err] #1 0x564c9dc89eae [0919/015424.811022:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-  - [pid=3261][err] base::debug::StackTrace::StackTrace()
-  - [pid=3261][err] #2 0x564c9dc9c6e1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
-  - [pid=3261][err] #3 0x7f833ba42520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
-  - [pid=3261][err] #4 0x7f833ba44c1d getenv
-  - [pid=3261][err] #5 0x564c9de1e189 epoll_init
-  - [pid=3261][err] #6 0x564c9de1b631 event_base_new
-  - [pid=3261][err] #7 0x564c9dca8d4d base::MessagePumpLibevent::MessagePumpLibevent()
-  - [pid=3261][err] #8 0x564c9dbe6e1b base::MessagePump::Create()
-  - [pid=3261][err] #9 0x564c9dc6c703 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
-  - [pid=3261][err] #10 0x564c9dc6c368 base::Thread::ThreadMain()
-  - [pid=3261][err] #11 0x564c9dc8041a base::(anonymous namespace)::ThreadFunc()
-  - [pid=3261][err] #12 0x7f833ba94ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
-  - [pid=3261][err] #13 0x7f833bb26850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
-  - [pid=3261][err]   r8: 00002b2800224a00  r9: 0000000000000000 r10: 00007ffed538a080 r11: 0000000000000246
-  - [pid=3261][err]  r12: 005c0200282b0000 r13: 000000000000000d r14: 000000000000000b r15: 0000564c961f3413
-  - [pid=3261][err]   di: 0000564c961f3411  si: 00007f8321dfded0  bp: 0000000000005645  bx: 00002b2800024800
-  - [pid=3261][err]   dx: 0000564c961f3411  ax: 000000000000000d  cx: 00007f833baec09b  sp: 00007f8321dfde60
-  - [pid=3261][err]   ip: 00007f833ba44c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
-  - [pid=3261][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
-  - [pid=3261][err] [end of stack trace]
-
-2024-09-19 01:54:25,137 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
+2024-09-19 02:55:15,020 Using selector: EpollSelector
+2024-09-19 02:57:19,262 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-19 02:57:19,262 Using selector: EpollSelector
+2024-09-19 02:59:21,643 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-19 02:59:21,643 Using selector: EpollSelector
+2024-09-19 03:01:23,926 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-19 03:01:23,927 Using selector: EpollSelector
+2024-09-19 03:03:26,098 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-19 03:03:26,098 Using selector: EpollSelector
+2024-09-19 03:05:28,839 Error: Data scraping unable to complete in 60.0s (retries: 3)
