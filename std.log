@@ -1,13 +1,10 @@
-2024-10-15 15:27:11,551 Using selector: EpollSelector
-2024-10-15 15:29:14,029 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-15 15:29:14,029 Using selector: EpollSelector
-2024-10-15 15:31:16,632 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-15 15:31:16,632 Using selector: EpollSelector
-2024-10-15 15:32:27,572 Error: Page.goto: net::ERR_TIMED_OUT at https://www.tiktok.com/@xcanadensis
-Call log:
-navigating to "https://www.tiktok.com/@xcanadensis", waiting until "load"
-
-2024-10-15 15:32:27,573 Using selector: EpollSelector
-2024-10-15 15:34:30,060 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-15 15:34:30,061 Using selector: EpollSelector
-2024-10-15 15:36:32,377 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-15 16:31:43,987 Using selector: EpollSelector
+2024-10-15 16:33:46,443 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-15 16:33:46,443 Using selector: EpollSelector
+2024-10-15 16:35:48,626 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-15 16:35:48,627 Using selector: EpollSelector
+2024-10-15 16:37:51,872 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-15 16:37:51,872 Using selector: EpollSelector
+2024-10-15 16:39:54,498 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-15 16:39:54,498 Using selector: EpollSelector
+2024-10-15 16:41:57,466 Error: Data scraping unable to complete in 60.0s (retries: 3)
