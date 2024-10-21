@@ -1,13 +1,10 @@
-2024-10-21 20:26:14,706 Using selector: EpollSelector
-2024-10-21 20:26:45,605 Error: Page.goto: net::ERR_TIMED_OUT at https://www.tiktok.com/@shinjukugewalt
-Call log:
-navigating to "https://www.tiktok.com/@shinjukugewalt", waiting until "load"
-
-2024-10-21 20:26:45,605 Using selector: EpollSelector
-2024-10-21 20:28:47,935 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-21 20:28:47,935 Using selector: EpollSelector
-2024-10-21 20:30:50,371 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-21 20:30:50,371 Using selector: EpollSelector
-2024-10-21 20:32:52,867 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-21 20:32:52,867 Using selector: EpollSelector
-2024-10-21 20:34:55,314 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-21 21:23:36,755 Using selector: EpollSelector
+2024-10-21 21:25:38,759 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-21 21:25:38,760 Using selector: EpollSelector
+2024-10-21 21:27:40,884 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-21 21:27:40,884 Using selector: EpollSelector
+2024-10-21 21:29:44,273 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-21 21:29:44,273 Using selector: EpollSelector
+2024-10-21 21:31:46,409 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-21 21:31:46,409 Using selector: EpollSelector
+2024-10-21 21:33:48,432 Error: Data scraping unable to complete in 60.0s (retries: 3)
