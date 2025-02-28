@@ -1,10 +1,13 @@
-2025-02-28 12:49:00,399 Using selector: EpollSelector
-2025-02-28 12:51:03,440 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-02-28 12:51:03,440 Using selector: EpollSelector
-2025-02-28 12:53:06,015 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-02-28 12:53:06,015 Using selector: EpollSelector
-2025-02-28 12:55:08,389 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-02-28 12:55:08,390 Using selector: EpollSelector
-2025-02-28 12:57:10,891 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-02-28 12:57:10,892 Using selector: EpollSelector
-2025-02-28 12:59:13,319 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-02-28 13:30:22,642 Using selector: EpollSelector
+2025-02-28 13:30:29,015 Error: Page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://www.tiktok.com/@shinjukugewalt
+Call log:
+  - navigating to "https://www.tiktok.com/@shinjukugewalt", waiting until "load"
+
+2025-02-28 13:30:29,015 Using selector: EpollSelector
+2025-02-28 13:32:31,574 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-02-28 13:32:31,574 Using selector: EpollSelector
+2025-02-28 13:34:34,173 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-02-28 13:34:34,174 Using selector: EpollSelector
+2025-02-28 13:36:36,581 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-02-28 13:36:36,581 Using selector: EpollSelector
+2025-02-28 13:38:38,863 Error: Data scraping unable to complete in 60.0s (retries: 3)
