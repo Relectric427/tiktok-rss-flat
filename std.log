@@ -1,10 +1,22 @@
-2026-01-03 07:28:42,715 Using selector: EpollSelector
-2026-01-03 07:30:44,778 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2026-01-03 07:30:44,779 Using selector: EpollSelector
-2026-01-03 07:32:46,598 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2026-01-03 07:32:46,599 Using selector: EpollSelector
-2026-01-03 07:34:48,638 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2026-01-03 07:34:48,638 Using selector: EpollSelector
-2026-01-03 07:36:50,534 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2026-01-03 07:36:50,534 Using selector: EpollSelector
-2026-01-03 07:38:52,708 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2026-01-03 08:38:16,162 Using selector: EpollSelector
+2026-01-03 08:40:18,162 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2026-01-03 08:40:18,162 Using selector: EpollSelector
+2026-01-03 08:40:18,673 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@planetclue
+Call log:
+  - navigating to "https://www.tiktok.com/@planetclue", waiting until "load"
+
+2026-01-03 08:40:18,674 Using selector: EpollSelector
+2026-01-03 08:40:44,094 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@xcanadensis
+Call log:
+  - navigating to "https://www.tiktok.com/@xcanadensis", waiting until "load"
+
+2026-01-03 08:40:44,094 Using selector: EpollSelector
+2026-01-03 08:40:44,565 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@texasbeeworks
+Call log:
+  - navigating to "https://www.tiktok.com/@texasbeeworks", waiting until "load"
+
+2026-01-03 08:40:44,566 Using selector: EpollSelector
+2026-01-03 08:40:44,976 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@ezzie.draws
+Call log:
+  - navigating to "https://www.tiktok.com/@ezzie.draws", waiting until "load"
+
