@@ -1,10 +1,10 @@
-2026-07-23 09:30:59,386 Using selector: EpollSelector
-2026-07-23 09:33:02,442 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2026-07-23 09:33:02,442 Using selector: EpollSelector
-2026-07-23 09:35:04,413 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2026-07-23 09:35:04,414 Using selector: EpollSelector
-2026-07-23 09:37:06,423 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2026-07-23 09:37:06,424 Using selector: EpollSelector
-2026-07-23 09:39:08,604 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2026-07-23 09:39:08,605 Using selector: EpollSelector
-2026-07-23 09:41:10,642 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2026-07-23 11:59:40,060 Using selector: EpollSelector
+2026-07-23 12:01:42,556 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2026-07-23 12:01:42,556 Using selector: EpollSelector
+2026-07-23 12:03:44,630 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2026-07-23 12:03:44,631 Using selector: EpollSelector
+2026-07-23 12:05:47,160 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2026-07-23 12:05:47,160 Using selector: EpollSelector
+2026-07-23 12:07:49,565 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2026-07-23 12:07:49,566 Using selector: EpollSelector
+2026-07-23 12:09:51,617 Error: Data scraping unable to complete in 60.0s (retries: 3)
